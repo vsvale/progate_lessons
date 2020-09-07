@@ -15,15 +15,16 @@ header{
     background: #26d0c9;
     display: flex;
     flex-wrap: wrap;
+    padding: 1.25rem 2.5rem;
 }
 
 header h3 a{
     color: white;
     float: left;
     font-size: 2.25rem;
-    padding: 1.25rem 2.5rem;
     margin: 0;
     text-decoration: none;
+    padding-right: 1.25rem;
 }
 
 
@@ -34,7 +35,7 @@ header ul{
 
 header ul li{
     list-style: none;
-    padding: 2.0625rem 1.25rem;
+    padding: 1rem 1.25rem 0 0;
 
 }
 
@@ -94,15 +95,14 @@ main{
 }
 
 .hero h1{
- margin: 0;
- font-size: 7.5rem;
- font-family: 'Indie Flower', cursive;
- color: rgb(8, 6, 3);
+    margin: 0;
+    font-family: 'Indie Flower', cursive;
+    color: rgb(8, 6, 3);
 }
 
 .hero h2{
     margin: 0;
-    font-size: 2.5rem;
+    
     font-family: 'Indie Flower', cursive;
     color: rgb(8, 6, 3);
 }
@@ -177,7 +177,6 @@ main{
 }
 
 #contact-form form label input, textarea{
-    width: 20rem;
     font-size:1rem;
     border: 0.0625rem solid #dee7ec;
     padding: 0.625rem;
@@ -188,8 +187,39 @@ main{
 #contact-form button{
     background: #dee7ec;
     color: #889eab;
-    width: 20rem;
     border: 0.0625rem solid #dee7ec;
     cursor:pointer;
     padding: 0.625rem;
+}
+
+@media screen and (max-width: 600px) {
+    .hero h1{
+        font-size: 5rem;
+    }
+    .hero h2{
+        font-size: 2rem;
+    }
+    #contact-form button{
+        width: 15rem;
+    }
+    #contact-form form label input, textarea{
+        width: 15rem;
+    }
+  }
+
+
+@media screen and (min-width: 601px) {
+    .hero h1{
+        font-size: 7.5rem;
+    }
+    .hero h2{
+        font-size: 2.5rem;;
+    }
+    #contact-form button{
+        width: 22rem;
+    }
+    #contact-form form label input, textarea{
+        width: 22rem;
+    }
+
 }

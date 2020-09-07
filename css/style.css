@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap" rel="stylesheet"');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    font-family: 'Syne', sans-serif;
+  }
+
+header{
+    background: #26d0c9;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header h3 a{
+    color: white;
+    float: left;
+    font-size: 2.25rem;
+    padding: 1.25rem 2.5rem;
+    margin: 0;
+    text-decoration: none;
+}
+
+
+header ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header ul li{
+    list-style: none;
+    padding: 2.0625rem 1.25rem;
+
+}
+
+header ul li a{
+    color: white;
+    text-decoration: none;
+
+}
+
+footer{
+    background: #2f5167;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.875rem 2.5rem 0 2.5rem;
+}
+footer p{
+    font-size: 1rem;
+    color: rgb(208,174,152);
+    flex-direction: column;
+    line-height: 1.5;
+    
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(208,174,152);
+}
+
+footer a:hover{
+    color: rgb(230,230,230);
+}
+
+footer ul{
+    color: rgb(208,174,152);
+    list-style: none;
+    flex-direction: row;
+    text-align: right;
+}
+
+footer ul li{
+    padding-bottom: 0.5rem ;
+}
+
+main{
+    background: #f7f9fc;
+    padding: 5rem 5rem;
+    margin: 0;
+}
+
+.hero{
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+}
+
+.hero h1{
+ margin: 0;
+ font-size: 7.5rem;
+ font-family: 'Indie Flower', cursive;
+ color: rgb(8, 6, 3);
+}
+
+.hero h2{
+    margin: 0;
+    font-size: 2.5rem;
+    font-family: 'Indie Flower', cursive;
+    color: rgb(8, 6, 3);
+}
+
+.hero span{
+    color:#ff4a4a;
+}
+
+.contents{
+    color: rgb(8, 6, 3);
+    margin-top: 6rem;
+}
+
+.contents h3, #contact-form h3{
+    border-bottom: 0.125rem solid #dee7ec;
+    font-size:1.75rem; 
+    padding-bottom: 0.9375rem;
+    margin-bottom: 3.125rem;
+}
+
+.contents ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contents ul li{
+    list-style: none;
+    flex-direction: column;
+    margin-right: 2.5rem;
+}
+
+.contents ul li p{
+    text-align: center;
+    font-size: 1.25rem;
+    margin-top: 1.1rem;
+
+}
+
+.contents ul li a{
+    text-decoration: none;
+    color: rgb(8, 6, 3);
+    
+    
+}
+
+.contents ul li a:hover{
+    text-decoration: none;
+    color:#ff4a4a;
+}
+
+#contact-form{
+    padding-top: 6.25rem;
+    
+}
+
+#contact-form form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 25rem;
+
+}
+
+#contact-form form label{
+    margin-bottom: 1.7rem;
+    flex-direction: row;
+    
+}
+
+#contact-form form label p{
+    padding:0.625rem;
+}
+
+#contact-form form label input, textarea{
+    width: 20rem;
+    font-size:1rem;
+    border: 0.0625rem solid #dee7ec;
+    padding: 0.625rem;
+    
+    
+}
+
+#contact-form button{
+    background: #dee7ec;
+    color: #889eab;
+    width: 20rem;
+    border: 0.0625rem solid #dee7ec;
+    cursor:pointer;
+    padding: 0.625rem;
+}
